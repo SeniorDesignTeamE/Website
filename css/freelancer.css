@@ -31,7 +31,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f0c8';
   font-family: FontAwesome;
   font-size: 2em; }
 
@@ -46,8 +46,7 @@ hr.star-dark {
   border-color: #7B1FA2; }
 
 hr.star-dark:after {
-  color: #7B1FA2;
-  background-color: white; }
+  color: #7B1FA2; }
 
 section {
   padding: 6rem 0; }
@@ -197,6 +196,14 @@ header.masthead {
     .portfolio-modal .portfolio-modal-dialog h2 {
       font-size: 3rem; } }
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef; }
@@ -285,6 +292,7 @@ a {
     border-color: #5a1777; }
 
 .gif-background {
-  background-image: url("https://i.imgur.com/6XxLQkY.gif");
+  background-image: url("../img/headerTop.gif");
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
